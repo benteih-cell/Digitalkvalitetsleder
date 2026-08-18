@@ -71,7 +71,7 @@ h1 { margin: 0; max-width: 760px; font-size: clamp(44px, 6vw, 72px); line-height
 .sectionIntro h2, .centerIntro h2, .audienceGrid h2, .aiBox h2, .contactBox h2 { margin: 12px 0 0; font-size: clamp(36px, 4vw, 56px); line-height: 1.1; letter-spacing: -0.04em; }
 .sectionIntro p:last-child, .centerIntro p, .darkLead, .contactBox > p { color: var(--slate-600); font-size: 18px; line-height: 1.75; }
 .darkLead { color: var(--slate-300); }
-.serviceGrid { margin-top: 48px; display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; }
+.serviceGrid { margin-top: 48px; display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
 .serviceCard { border: 1px solid var(--slate-200); border-radius: 28px; padding: 28px; background: var(--white); box-shadow: 0 8px 22px rgba(15,23,42,0.04); }
 .iconBox { width: 56px; height: 56px; border-radius: 18px; display: grid; place-items: center; background: var(--cyan-100); color: var(--cyan-700); margin-bottom: 20px; }
 .serviceCard h3 { margin: 0; font-size: 20px; }
