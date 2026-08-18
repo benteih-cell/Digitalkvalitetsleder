@@ -1,12 +1,12 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { CheckCircle2, FileText, ShieldCheck, Laptop, Users, ArrowRight, Sparkles, Mail, Phone, MapPin } from "lucide-react";
+import { CheckCircle2, FileText, ShieldCheck, Laptop, Users, ArrowRight, Sparkles, Mail, Phone, MapPin, Cpu, Award } from "lucide-react";
 
 const contact = {
   title: "Digital kvalitetsleder | Dokumentstyring | Kvalitet og prosessforbedring",
   phone: "+47 482 65 659",
-  email: "benteih@gmail.com",
+  email: "info@digital-kvalitetsleder.no",
   location: "Herøy, Nordland"
 };
 
@@ -30,6 +30,16 @@ const services = [
     icon: Users,
     title: "Opplæring og støtte",
     text: "Praktisk veiledning, arbeidsmøter og opplæring slik at rutiner faktisk blir tatt i bruk i organisasjonen."
+  },
+  {
+    icon: Cpu,
+    title: "AI-klar bedrift",
+    text: "Trygg og praktisk bruk av KI, bygget på ryddig informasjon, gode rutiner og retningslinjer tilpasset virksomheten."
+  },
+  {
+    icon: Award,
+    title: "ISO-rådgivning og implementering",
+    text: "Etablering og vedlikehold av kvalitetsstyringssystem i tråd med ISO-standarder, revisjonsforberedelse og oppfølging av avvik og forbedringsarbeid."
   }
 ];
 
@@ -210,10 +220,10 @@ export default function Home() {
             <div>
               <p className="overline light">AI-klar bedrift</p>
               <h2>God AI starter med god informasjonsstruktur.</h2>
-              <p className="darkLead">Mange virksomheter ønsker å ta i bruk Copilot og andre AI-verktøy, men mangler ryddige dokumenter, tydelige rutiner og kvalitetssikret informasjon. Vi hjelper deg med å få grunnmuren på plass.</p>
+              <p className="darkLead">Mange virksomheter ønsker å ta i bruk Copilot og andre AI-verktøy, men mangler ryddige dokumenter, tydelige rutiner og kvalitetssikret informasjon. Vi hjelper deg med å få grunnmuren på plass, sette retningslinjer for trygg bruk, og lære opp ansatte i verktøyene dere allerede har.</p>
             </div>
             <div className="aiList">
-              {["Rydding av dokumenter og mapper", "Standard for filnavn, versjon og eierskap", "Strukturering av SharePoint og Teams", "Forbedret søkbarhet og informasjonsflyt", "Rutiner for kvalitetssikring før AI tas i bruk"].map((item) => (
+              {["Rydding av dokumenter og mapper", "Standard for filnavn, versjon og eierskap", "Strukturering av SharePoint og Teams", "Retningslinjer for trygg og ansvarlig KI-bruk", "Kartlegging av automatiseringsmuligheter i administrasjonen", "Opplæring og workshops for ansatte", "Rutiner for kvalitetssikring før AI tas i bruk"].map((item) => (
                 <div key={item}><CheckCircle2 size={20} />{item}</div>
               ))}
             </div>
